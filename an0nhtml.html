@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hacked by AN0NBIL</title>
+<style>
+    body {
+        background-color: #000;
+        color: #fff;
+        font-family: consolas, monospace;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .blinking {
+        animation: blink 0.5s infinite;
+    }
+    @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1; }
+    }
+    .hacked-text {
+        color: red;
+        animation: glow 0.5s infinite alternate;
+        font-size: 36px;
+    }
+    @keyframes glow {
+        0% { text-shadow: 0 0 5px red; }
+        100% { text-shadow: 0 0 15px red; }
+    }
+    .hacking-text {
+        color: #00f;
+        font-size: 24px;
+    }
+    .white-line {
+        border-bottom: 1px solid #fff;
+        margin: 20px auto;
+        width: 80%;
+    }
+    .pfp {
+        width: 80%; /* Adjust size as needed */
+        max-width: 400px; /* Max width for larger screens */
+        height: auto; /* Keep aspect ratio */
+        margin: 20px auto;
+    }
+    @media (max-width: 768px) { /* For tablets and smaller screens */
+        .hacked-text {
+            font-size: 24px;
+        }
+        .hacking-text {
+            font-size: 18px;
+        }
+        .pfp {
+            max-width: 300px;
+        }
+    }
+    @media (max-width: 480px) { /* For mobile phones */
+        .hacked-text {
+            font-size: 20px;
+        }
+        .hacking-text {
+            font-size: 16px;
+        }
+        .pfp {
+            max-width: 200px;
+        }
+    }
+</style>
+</head>
+<body>
+    <img src="https://i.imgur.com/WiZKDyI.jpeg" alt="Profile Picture" class="pfp">
+    <h1 class="hacked-text">Hacked by <span class="blinking">AN0NBIL</span></h1>
+    <p class="hacking-text">Dear Admin, Just improve the security of your website.</p>
+    <div class="white-line"></div>
+    <p>.</p> <!-- Dot added below the line -->
+</body>
+</html>
